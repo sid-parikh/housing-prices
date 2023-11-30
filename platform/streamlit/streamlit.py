@@ -380,6 +380,6 @@ num = calculate_price(
     walkability,
 )
 
-st.metric(price_label, value=f"${int(num[0])}")
+st.metric(price_label, value=f"${int(num[0]):,}")
 
 # Make callback
