@@ -5,7 +5,7 @@ from joblib import load
 from sklearn.tree import DecisionTreeRegressor
 import json
 
-st.title("BDBI Housing Price Prediction")
+st.title("Housing Price Predictor")
 
 price_label = "Estimated Price:"
 
@@ -177,23 +177,25 @@ cities = [
 ]
 
 types = [
-    "commercial",
-    "condo",
-    "farm",
-    "government",
-    "industrial",
-    "mobile",
-    "multi_family",
-    "other",
-    "single_family",
-    "townhomes",
+    "Commercial",
+    "Condo",
+    "Farm",
+    "Government",
+    "Industrial",
+    "Mobile",
+    "Multi Family",
+    "Other",
+    "Single Family",
+    "Townhomes",
 ]
 
 city_data = json.load(open("platform/streamlit/cities.json", "r"))
 
+
 @st.cache_data
 def load_model():
     return load("platform/streamlit/model.joblib")
+
 
 def calculate_price(
     sold_date,
@@ -236,15 +238,15 @@ def calculate_price(
         "sold_year": sold_date.year,
         "sold_month": sold_date.month,
         "sold_day": sold_date.day,
-        "type_commercial": 1 if type_ == "commercial" else 0,
-        "type_condo": 1 if type_ == "condo" else 0,
-        "type_farm": 1 if type_ == "farm" else 0,
-        "type_government": 1 if type_ == "government" else 0,
-        "type_industrial": 1 if type_ == "industrial" else 0,
-        "type_mobile": 1 if type_ == "mobile" else 0,
-        "type_multi_family": 1 if type_ == "multi_family" else 0,
-        "type_other": 1 if type_ == "other" else 0,
-        "type_single_family": 1 if type_ == "single_family" else 0,
+        "type_commercial": 1 if type_ == "Commercial" else 0,
+        "type_condo": 1 if type_ == "Condo" else 0,
+        "type_farm": 1 if type_ == "Farm" else 0,
+        "type_government": 1 if type_ == "Government" else 0,
+        "type_industrial": 1 if type_ == "Industrial" else 0,
+        "type_mobile": 1 if type_ == "Mobile" else 0,
+        "type_multi_family": 1 if type_ == "Multi Family" else 0,
+        "type_other": 1 if type_ == "Other" else 0,
+        "type_single_family": 1 if type_ == "Single Family" else 0,
         "type_townhomes": 1 if type_ == "townhomes" else 0,
         "city_Acworth": 1 if city == "Acworth" else 0,
         "city_Atlanta": 1 if city == "Atlanta" else 0,
@@ -318,17 +320,34 @@ def calculate_price(
     return model.predict(pd.DataFrame(param_dict, index=[0]))
 
 
-sold_date = st.date_input("Target Sell Date", value=pd.to_datetime("today"))
-built_date = st.date_input("Built Date", value=pd.to_datetime("today"))
-baths_full = st.number_input("Number of Full Baths", value=1)
-baths_half = st.number_input("Number of Half Baths", value=0)
-lot_sqft = st.number_input("Lot Square Footage", value=5000)
-sqft = st.number_input("Square Footage", value=1500)
-city = st.selectbox("City", cities)
-type_ = st.selectbox("Type", types)
-garage = st.number_input("Number of Garage Spaces", value=1)
-stories = st.number_input("Number of Stories", value=1)
-beds = st.number_input("Number of Bedrooms", value=3)
+col1, col2 = st.columns(2)
+
+with col1:
+    sold_date = pd.to_datetime("today")
+    city = st.selectbox("City", cities)
+    type_ = st.selectbox("Type", types)
+    built_date = st.number_input(
+        "Year Built", value=2000, min_value=1900, max_value=2023, step=1
+    )
+
+    sqft = st.number_input("Square Footage", value=1500, min_value=0, max_value=999999)
+
+    lot_sqft = st.number_input(
+        "Lot Square Footage", value=5000, min_value=0, max_value=999999
+    )
+with col2:
+    beds = st.number_input("Number of Bedrooms", value=3, min_value=0, max_value=99)
+    baths_full = st.number_input(
+        "Number of Full Baths", value=1, min_value=1, max_value=99, step=1
+    )
+    baths_half = st.number_input(
+        "Number of Half Baths", value=0, min_value=0, max_value=99, step=1
+    )
+
+    garage = st.number_input(
+        "Number of Garage Spaces", value=1, min_value=0, max_value=99
+    )
+    stories = st.number_input("Number of Stories", value=1, min_value=1, max_value=999)
 
 tract = city_data[city]["Tract"]
 pct_1car = city_data[city]["Pct_1Car"]
@@ -341,7 +360,7 @@ walkability = city_data[city]["Walkability"]
 
 num = calculate_price(
     sold_date,
-    built_date.year,
+    built_date,
     baths_full,
     baths_half,
     lot_sqft,
@@ -358,9 +377,9 @@ num = calculate_price(
     employment_density,
     jobs_nearby,
     employment_entropy,
-    walkability
+    walkability,
 )
 
-st.metric(price_label, value=f"${int(num)}")
+st.metric(price_label, value=f"${int(num[0])}")
 
 # Make callback
