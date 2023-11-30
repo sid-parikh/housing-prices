@@ -1,0 +1,752 @@
+{
+    "Acworth": {
+        "Tract": 13067030107,
+        "Pct_1Car": 0.2040292595,
+        "Pct_2Car": 0.7895686915,
+        "PopulationDensity": 5.3104761045,
+        "EmploymentDensity": 0.2257085395,
+        "JobsNearby": 73071.0,
+        "EmploymentEntropy": 0.766938092,
+        "Walkability": 6.1666666665
+    },
+    "nan": {
+        "Tract": 13067030107,
+        "Pct_1Car": 0.2040292595,
+        "Pct_2Car": 0.7895686915,
+        "PopulationDensity": 5.3104761045,
+        "EmploymentDensity": 0.2257085395,
+        "JobsNearby": 73071.0,
+        "EmploymentEntropy": 0.766938092,
+        "Walkability": 6.1666666665
+    },
+    "Kennesaw": {
+        "Tract": 13067030230,
+        "Pct_1Car": 0.379801299,
+        "Pct_2Car": 0.5800144315,
+        "PopulationDensity": 3.985309729,
+        "EmploymentDensity": 1.780740422,
+        "JobsNearby": 81465.0,
+        "EmploymentEntropy": 0.7576183305,
+        "Walkability": 8.4166666665
+    },
+    "Bainbridge": {
+        "Tract": 13087970400,
+        "Pct_1Car": 0.3597646248,
+        "Pct_2Car": 0.4725850172,
+        "PopulationDensity": 1.6180386255,
+        "EmploymentDensity": 0.8347485808,
+        "JobsNearby": 4551.0,
+        "EmploymentEntropy": 0.587862674,
+        "Walkability": 7.4999999992
+    },
+    "Bartow": {
+        "Tract": 13163960400,
+        "Pct_1Car": 0.4255421672,
+        "Pct_2Car": 0.391976554,
+        "PopulationDensity": 0.325733797,
+        "EmploymentDensity": 0.0840554175,
+        "JobsNearby": 1913.75,
+        "EmploymentEntropy": 0.464317315,
+        "Walkability": 5.083333333
+    },
+    "Norman Park": {
+        "Tract": 13071970300,
+        "Pct_1Car": 0.4131032638,
+        "Pct_2Car": 0.3234234232,
+        "PopulationDensity": 2.8053354598,
+        "EmploymentDensity": 0.4996098028,
+        "JobsNearby": 6380.0,
+        "EmploymentEntropy": 0.433049669,
+        "Walkability": 6.9999999992
+    },
+    "Berlin": {
+        "Tract": 13071970500,
+        "Pct_1Car": 0.39636978,
+        "Pct_2Car": 0.590082597,
+        "PopulationDensity": 0.060361429,
+        "EmploymentDensity": 0.0070675325,
+        "JobsNearby": 3426.0,
+        "EmploymentEntropy": 0.475615394,
+        "Walkability": 3.4166666665
+    },
+    "Moultrie": {
+        "Tract": 13071970400,
+        "Pct_1Car": 0.461857192,
+        "Pct_2Car": 0.430491616,
+        "PopulationDensity": 0.5428129673,
+        "EmploymentDensity": 1.1558355023,
+        "JobsNearby": 7165.3333333333,
+        "EmploymentEntropy": 0.7213792423,
+        "Walkability": 6.9444444443
+    },
+    "Bloomingdale": {
+        "Tract": 13029920101,
+        "Pct_1Car": 0.2872715185,
+        "Pct_2Car": 0.65260884,
+        "PopulationDensity": 0.175000099,
+        "EmploymentDensity": 0.0362688715,
+        "JobsNearby": 7464.5,
+        "EmploymentEntropy": 0.583902354,
+        "Walkability": 5.0833333335
+    },
+    "Eden": {
+        "Tract": 13029920101,
+        "Pct_1Car": 0.2872715185,
+        "Pct_2Car": 0.65260884,
+        "PopulationDensity": 0.175000099,
+        "EmploymentDensity": 0.0362688715,
+        "JobsNearby": 7464.5,
+        "EmploymentEntropy": 0.583902354,
+        "Walkability": 5.0833333335
+    },
+    "Savannah": {
+        "Tract": 13029920101,
+        "Pct_1Car": 0.2872715185,
+        "Pct_2Car": 0.65260884,
+        "PopulationDensity": 0.175000099,
+        "EmploymentDensity": 0.0362688715,
+        "JobsNearby": 7464.5,
+        "EmploymentEntropy": 0.583902354,
+        "Walkability": 5.0833333335
+    },
+    "Bronwood": {
+        "Tract": 13273120200,
+        "Pct_1Car": 0.2837820055,
+        "Pct_2Car": 0.6356280095,
+        "PopulationDensity": 0.014125007,
+        "EmploymentDensity": 0.0018950485,
+        "JobsNearby": 2714.0,
+        "EmploymentEntropy": 0.323011773,
+        "Walkability": 3.0833333335
+    },
+    "Brooks": {
+        "Tract": 13113140502,
+        "Pct_1Car": 0.137304102,
+        "Pct_2Car": 0.8352038585,
+        "PopulationDensity": 0.1786507465,
+        "EmploymentDensity": 0.0126351985,
+        "JobsNearby": 18701.0,
+        "EmploymentEntropy": 0.6180173955,
+        "Walkability": 4.333333333
+    },
+    "Buford": {
+        "Tract": 13139001607,
+        "Pct_1Car": 0.2363868667,
+        "Pct_2Car": 0.7415669287,
+        "PopulationDensity": 1.7381668333,
+        "EmploymentDensity": 1.3748189387,
+        "JobsNearby": 63091.6666666667,
+        "EmploymentEntropy": 0.7285991187,
+        "Walkability": 7.7777777777
+    },
+    "Sugar Hill": {
+        "Tract": 13139001607,
+        "Pct_1Car": 0.2363868667,
+        "Pct_2Car": 0.7415669287,
+        "PopulationDensity": 1.7381668333,
+        "EmploymentDensity": 1.3748189387,
+        "JobsNearby": 63091.6666666667,
+        "EmploymentEntropy": 0.7285991187,
+        "Walkability": 7.7777777777
+    },
+    "Duluth": {
+        "Tract": 13139001607,
+        "Pct_1Car": 0.2363868667,
+        "Pct_2Car": 0.7415669287,
+        "PopulationDensity": 1.7381668333,
+        "EmploymentDensity": 1.3748189387,
+        "JobsNearby": 63091.6666666667,
+        "EmploymentEntropy": 0.7285991187,
+        "Walkability": 7.7777777777
+    },
+    "Flowery Branch": {
+        "Tract": 13139001605,
+        "Pct_1Car": 0.150381063,
+        "Pct_2Car": 0.82888975,
+        "PopulationDensity": 1.449014641,
+        "EmploymentDensity": 0.1982578635,
+        "JobsNearby": 43824.0,
+        "EmploymentEntropy": 0.6395800515,
+        "Walkability": 5.5
+    },
+    "Cecil": {
+        "Tract": 13075960400,
+        "Pct_1Car": 0.370165857,
+        "Pct_2Car": 0.5238006593,
+        "PopulationDensity": 0.4735085387,
+        "EmploymentDensity": 0.229841073,
+        "JobsNearby": 3922.0,
+        "EmploymentEntropy": 0.7058459413,
+        "Walkability": 6.111111112
+    },
+    "Hahira": {
+        "Tract": 13075960400,
+        "Pct_1Car": 0.370165857,
+        "Pct_2Car": 0.5238006593,
+        "PopulationDensity": 0.4735085387,
+        "EmploymentDensity": 0.229841073,
+        "JobsNearby": 3922.0,
+        "EmploymentEntropy": 0.7058459413,
+        "Walkability": 6.111111112
+    },
+    "Valdosta": {
+        "Tract": 13075960400,
+        "Pct_1Car": 0.370165857,
+        "Pct_2Car": 0.5238006593,
+        "PopulationDensity": 0.4735085387,
+        "EmploymentDensity": 0.229841073,
+        "JobsNearby": 3922.0,
+        "EmploymentEntropy": 0.7058459413,
+        "Walkability": 6.111111112
+    },
+    "Lenox": {
+        "Tract": 13075960100,
+        "Pct_1Car": 0.316900612,
+        "Pct_2Car": 0.6212630535,
+        "PopulationDensity": 0.0610226355,
+        "EmploymentDensity": 0.00722041,
+        "JobsNearby": 2859.5,
+        "EmploymentEntropy": 0.663734093,
+        "Walkability": 4.6666666665
+    },
+    "Chamblee": {
+        "Tract": 13089021208,
+        "Pct_1Car": 0.2770700905,
+        "Pct_2Car": 0.6610363295,
+        "PopulationDensity": 5.10786238,
+        "EmploymentDensity": 4.3201925365,
+        "JobsNearby": 245792.0,
+        "EmploymentEntropy": 0.6044312505,
+        "Walkability": 13.25
+    },
+    "Atlanta": {
+        "Tract": 13089021208,
+        "Pct_1Car": 0.2770700905,
+        "Pct_2Car": 0.6610363295,
+        "PopulationDensity": 5.10786238,
+        "EmploymentDensity": 4.3201925365,
+        "JobsNearby": 245792.0,
+        "EmploymentEntropy": 0.6044312505,
+        "Walkability": 13.25
+    },
+    "Brookhaven": {
+        "Tract": 13089021208,
+        "Pct_1Car": 0.2770700905,
+        "Pct_2Car": 0.6610363295,
+        "PopulationDensity": 5.10786238,
+        "EmploymentDensity": 4.3201925365,
+        "JobsNearby": 245792.0,
+        "EmploymentEntropy": 0.6044312505,
+        "Walkability": 13.25
+    },
+    "Cohutta": {
+        "Tract": 13047030100,
+        "Pct_1Car": 0.264361217,
+        "Pct_2Car": 0.688534392,
+        "PopulationDensity": 0.2148658485,
+        "EmploymentDensity": 0.0115808387,
+        "JobsNearby": 6878.5,
+        "EmploymentEntropy": 0.4106574142,
+        "Walkability": 3.5416666665
+    },
+    "Ringgold": {
+        "Tract": 13047030100,
+        "Pct_1Car": 0.264361217,
+        "Pct_2Car": 0.688534392,
+        "PopulationDensity": 0.2148658485,
+        "EmploymentDensity": 0.0115808387,
+        "JobsNearby": 6878.5,
+        "EmploymentEntropy": 0.4106574142,
+        "Walkability": 3.5416666665
+    },
+    "Colquitt": {
+        "Tract": 13201950100,
+        "Pct_1Car": 0.356834532,
+        "Pct_2Car": 0.581294964,
+        "PopulationDensity": 0.025071256,
+        "EmploymentDensity": 0.005356983,
+        "JobsNearby": 1118.0,
+        "EmploymentEntropy": 0.839029989,
+        "Walkability": 6.166666667
+    },
+    "East Ellijay": {
+        "Tract": 13123080300,
+        "Pct_1Car": 0.3375389482,
+        "Pct_2Car": 0.54536371,
+        "PopulationDensity": 0.5087125868,
+        "EmploymentDensity": 0.2469045818,
+        "JobsNearby": 3509.5,
+        "EmploymentEntropy": 0.7167146968,
+        "Walkability": 6.6666666668
+    },
+    "Ellijay": {
+        "Tract": 13123080300,
+        "Pct_1Car": 0.3375389482,
+        "Pct_2Car": 0.54536371,
+        "PopulationDensity": 0.5087125868,
+        "EmploymentDensity": 0.2469045818,
+        "JobsNearby": 3509.5,
+        "EmploymentEntropy": 0.7167146968,
+        "Walkability": 6.6666666668
+    },
+    "Elberton": {
+        "Tract": 13105000200,
+        "Pct_1Car": 0.2770282623,
+        "Pct_2Car": 0.6547974817,
+        "PopulationDensity": 0.0541226903,
+        "EmploymentDensity": 0.00481989,
+        "JobsNearby": 2761.6666666667,
+        "EmploymentEntropy": 0.392502312,
+        "Walkability": 3.1666666667
+    },
+    "Enigma": {
+        "Tract": 13155950200,
+        "Pct_1Car": 0.4434210788,
+        "Pct_2Car": 0.4479736573,
+        "PopulationDensity": 1.0762529972,
+        "EmploymentDensity": 0.3345989622,
+        "JobsNearby": 3288.6666666667,
+        "EmploymentEntropy": 0.593388624,
+        "Walkability": 6.1111111105
+    },
+    "Griffin": {
+        "Tract": 13151070501,
+        "Pct_1Car": 0.293898445,
+        "Pct_2Car": 0.6831292835,
+        "PopulationDensity": 0.61598434,
+        "EmploymentDensity": 0.084920009,
+        "JobsNearby": 27782.5,
+        "EmploymentEntropy": 0.6851404045,
+        "Walkability": 6.0
+    },
+    "Milledgeville": {
+        "Tract": 13009970701,
+        "Pct_1Car": 0.3970596197,
+        "Pct_2Car": 0.4130614463,
+        "PopulationDensity": 2.270173768,
+        "EmploymentDensity": 0.6017199077,
+        "JobsNearby": 4912.3333333333,
+        "EmploymentEntropy": 0.5830588537,
+        "Walkability": 8.3888888887
+    },
+    "Sandersville": {
+        "Tract": 13303950400,
+        "Pct_1Car": 0.284849967,
+        "Pct_2Car": 0.5844476977,
+        "PopulationDensity": 0.9446233162,
+        "EmploymentDensity": 0.6550187892,
+        "JobsNearby": 2734.25,
+        "EmploymentEntropy": 0.5648335288,
+        "Walkability": 6.2916666668
+    },
+    "Concord": {
+        "Tract": 13231010400,
+        "Pct_1Car": 0.262758621,
+        "Pct_2Car": 0.723908046,
+        "PopulationDensity": 0.122005562,
+        "EmploymentDensity": 0.0089383645,
+        "JobsNearby": 3979.5,
+        "EmploymentEntropy": 0.6093819655,
+        "Walkability": 3.5
+    },
+    "Hull": {
+        "Tract": 13059140400,
+        "Pct_1Car": 0.402811792,
+        "Pct_2Car": 0.5910532385,
+        "PopulationDensity": 1.2151235455,
+        "EmploymentDensity": 0.633603395,
+        "JobsNearby": 21145.0,
+        "EmploymentEntropy": 0.751913196,
+        "Walkability": 6.25
+    },
+    "Jesup": {
+        "Tract": 13305970200,
+        "Pct_1Car": 0.4265894712,
+        "Pct_2Car": 0.48432462,
+        "PopulationDensity": 0.6003819228,
+        "EmploymentDensity": 0.2320202826,
+        "JobsNearby": 3186.6,
+        "EmploymentEntropy": 0.4687512708,
+        "Walkability": 5.4333333334
+    },
+    "Hinesville": {
+        "Tract": 13305970500,
+        "Pct_1Car": 0.4128376905,
+        "Pct_2Car": 0.49197584,
+        "PopulationDensity": 2.0250002312,
+        "EmploymentDensity": 0.4384415012,
+        "JobsNearby": 4156.25,
+        "EmploymentEntropy": 0.4134255408,
+        "Walkability": 7.5833333335
+    },
+    "Jonesboro": {
+        "Tract": 13063040521,
+        "Pct_1Car": 0.379733343,
+        "Pct_2Car": 0.5377444215,
+        "PopulationDensity": 5.8040899575,
+        "EmploymentDensity": 0.285259543,
+        "JobsNearby": 138720.5,
+        "EmploymentEntropy": 0.369414467,
+        "Walkability": 7.5
+    },
+    "Lake Spivey": {
+        "Tract": 13063040521,
+        "Pct_1Car": 0.379733343,
+        "Pct_2Car": 0.5377444215,
+        "PopulationDensity": 5.8040899575,
+        "EmploymentDensity": 0.285259543,
+        "JobsNearby": 138720.5,
+        "EmploymentEntropy": 0.369414467,
+        "Walkability": 7.5
+    },
+    "Lovejoy": {
+        "Tract": 13063040620,
+        "Pct_1Car": 0.303345725,
+        "Pct_2Car": 0.658736059,
+        "PopulationDensity": 2.068944624,
+        "EmploymentDensity": 0.186612508,
+        "JobsNearby": 79080.0,
+        "EmploymentEntropy": 0.459388805,
+        "Walkability": 5.833333333
+    },
+    "Thomaston": {
+        "Tract": 13293010300,
+        "Pct_1Car": 0.276076914,
+        "Pct_2Car": 0.69152843,
+        "PopulationDensity": 0.0672227635,
+        "EmploymentDensity": 0.0055421425,
+        "JobsNearby": 2254.5,
+        "EmploymentEntropy": 0.3862709045,
+        "Walkability": 3.4166666665
+    },
+    "Lincolnton": {
+        "Tract": 13181970100,
+        "Pct_1Car": 0.2846346188,
+        "Pct_2Car": 0.6355966972,
+        "PopulationDensity": 0.1098197878,
+        "EmploymentDensity": 0.04689733,
+        "JobsNearby": 2843.75,
+        "EmploymentEntropy": 0.5612978788,
+        "Walkability": 5.041666667
+    },
+    "Louisville": {
+        "Tract": 13181970100,
+        "Pct_1Car": 0.2846346188,
+        "Pct_2Car": 0.6355966972,
+        "PopulationDensity": 0.1098197878,
+        "EmploymentDensity": 0.04689733,
+        "JobsNearby": 2843.75,
+        "EmploymentEntropy": 0.5612978788,
+        "Walkability": 5.041666667
+    },
+    "Lithonia": {
+        "Tract": 13089023427,
+        "Pct_1Car": 0.24025974,
+        "Pct_2Car": 0.7480519485,
+        "PopulationDensity": 2.321382856,
+        "EmploymentDensity": 0.062164567,
+        "JobsNearby": 97218.0,
+        "EmploymentEntropy": 0.12580898,
+        "Walkability": 4.833333333
+    },
+    "Stonecrest": {
+        "Tract": 13089023427,
+        "Pct_1Car": 0.24025974,
+        "Pct_2Car": 0.7480519485,
+        "PopulationDensity": 2.321382856,
+        "EmploymentDensity": 0.062164567,
+        "JobsNearby": 97218.0,
+        "EmploymentEntropy": 0.12580898,
+        "Walkability": 4.833333333
+    },
+    "Manassas": {
+        "Tract": 13267950201,
+        "Pct_1Car": 0.3777959705,
+        "Pct_2Car": 0.552711275,
+        "PopulationDensity": 0.3443850395,
+        "EmploymentDensity": 0.1848913805,
+        "JobsNearby": 3971.0,
+        "EmploymentEntropy": 0.6390719765,
+        "Walkability": 5.666666667
+    },
+    "Collins": {
+        "Tract": 13267950201,
+        "Pct_1Car": 0.3777959705,
+        "Pct_2Car": 0.552711275,
+        "PopulationDensity": 0.3443850395,
+        "EmploymentDensity": 0.1848913805,
+        "JobsNearby": 3971.0,
+        "EmploymentEntropy": 0.6390719765,
+        "Walkability": 5.666666667
+    },
+    "Martin": {
+        "Tract": 13119890102,
+        "Pct_1Car": 0.3088948067,
+        "Pct_2Car": 0.6644315213,
+        "PopulationDensity": 0.2557066423,
+        "EmploymentDensity": 0.0200453437,
+        "JobsNearby": 6358.0,
+        "EmploymentEntropy": 0.763806309,
+        "Walkability": 5.5
+    },
+    "Mitchell": {
+        "Tract": 13141480400,
+        "Pct_1Car": 0.4365146702,
+        "Pct_2Car": 0.433224625,
+        "PopulationDensity": 0.0827751128,
+        "EmploymentDensity": 0.0150738924,
+        "JobsNearby": 884.0,
+        "EmploymentEntropy": 0.2873304644,
+        "Walkability": 3.4333333334
+    },
+    "Waco": {
+        "Tract": 13045910400,
+        "Pct_1Car": 0.2850484437,
+        "Pct_2Car": 0.6501261637,
+        "PopulationDensity": 0.1650282643,
+        "EmploymentDensity": 0.0136853743,
+        "JobsNearby": 5735.6666666667,
+        "EmploymentEntropy": 0.5743151763,
+        "Walkability": 4.111111111
+    },
+    "Carrollton": {
+        "Tract": 13045910600,
+        "Pct_1Car": 0.3712860677,
+        "Pct_2Car": 0.5994399277,
+        "PopulationDensity": 2.3979760223,
+        "EmploymentDensity": 2.0941548893,
+        "JobsNearby": 13434.3333333333,
+        "EmploymentEntropy": 0.769096835,
+        "Walkability": 8.2222222223
+    },
+    "Lyons": {
+        "Tract": 13107970600,
+        "Pct_1Car": 0.3227463698,
+        "Pct_2Car": 0.5629457272,
+        "PopulationDensity": 0.2804219148,
+        "EmploymentDensity": 0.224189511,
+        "JobsNearby": 3031.0,
+        "EmploymentEntropy": 0.6882287452,
+        "Walkability": 7.125
+    },
+    "Twin City": {
+        "Tract": 13107970600,
+        "Pct_1Car": 0.3227463698,
+        "Pct_2Car": 0.5629457272,
+        "PopulationDensity": 0.2804219148,
+        "EmploymentDensity": 0.224189511,
+        "JobsNearby": 3031.0,
+        "EmploymentEntropy": 0.6882287452,
+        "Walkability": 7.125
+    },
+    "Oak Park": {
+        "Tract": 13107970300,
+        "Pct_1Car": 0.2961568537,
+        "Pct_2Car": 0.569594628,
+        "PopulationDensity": 0.762471428,
+        "EmploymentDensity": 0.194991073,
+        "JobsNearby": 2541.6666666667,
+        "EmploymentEntropy": 0.52641353,
+        "Walkability": 5.777777778
+    },
+    "Pembroke": {
+        "Tract": 13029980000,
+        "Pct_1Car": 0.0,
+        "Pct_2Car": 0.0,
+        "PopulationDensity": 0.0,
+        "EmploymentDensity": 0.0,
+        "JobsNearby": 806.0,
+        "EmploymentEntropy": 0.0,
+        "Walkability": 1.0
+    },
+    "Pine Mountain": {
+        "Tract": 13145120198,
+        "Pct_1Car": 0.2350736822,
+        "Pct_2Car": 0.7084891378,
+        "PopulationDensity": 0.4348508895,
+        "EmploymentDensity": 0.0694197488,
+        "JobsNearby": 5359.5,
+        "EmploymentEntropy": 0.3073094123,
+        "Walkability": 4.25
+    },
+    "Hamilton": {
+        "Tract": 13145120401,
+        "Pct_1Car": 0.1926665615,
+        "Pct_2Car": 0.8002579665,
+        "PopulationDensity": 0.221127766,
+        "EmploymentDensity": 0.014664643,
+        "JobsNearby": 8088.5,
+        "EmploymentEntropy": 0.6637285925,
+        "Walkability": 5.0833333335
+    },
+    "Pineview": {
+        "Tract": 13315960200,
+        "Pct_1Car": 0.356140351,
+        "Pct_2Car": 0.6,
+        "PopulationDensity": 0.02296733,
+        "EmploymentDensity": 0.000766078,
+        "JobsNearby": 679.0,
+        "EmploymentEntropy": 0.632272285,
+        "Walkability": 3.833333333
+    },
+    "Plainville": {
+        "Tract": 13129970700,
+        "Pct_1Car": 0.3188273727,
+        "Pct_2Car": 0.6532463053,
+        "PopulationDensity": 0.1915620557,
+        "EmploymentDensity": 0.03896354,
+        "JobsNearby": 8702.6666666667,
+        "EmploymentEntropy": 0.3783221287,
+        "Walkability": 4.111111111
+    },
+    "Richmond Hill": {
+        "Tract": 13029920303,
+        "Pct_1Car": 0.3298510875,
+        "Pct_2Car": 0.5984269215,
+        "PopulationDensity": 4.5066707265,
+        "EmploymentDensity": 0.649621068,
+        "JobsNearby": 17091.5,
+        "EmploymentEntropy": 0.708461332,
+        "Walkability": 7.4166666665
+    },
+    "Roopville": {
+        "Tract": 13045911200,
+        "Pct_1Car": 0.2684761442,
+        "Pct_2Car": 0.6725768732,
+        "PopulationDensity": 0.174596695,
+        "EmploymentDensity": 0.0775151015,
+        "JobsNearby": 5332.25,
+        "EmploymentEntropy": 0.5425803098,
+        "Walkability": 3.9166666667
+    },
+    "Smyrna": {
+        "Tract": 13067031001,
+        "Pct_1Car": 0.4620892663,
+        "Pct_2Car": 0.385659782,
+        "PopulationDensity": 4.0574795767,
+        "EmploymentDensity": 2.980189542,
+        "JobsNearby": 116423.6666666667,
+        "EmploymentEntropy": 0.6780490603,
+        "Walkability": 11.1666666667
+    },
+    "Marietta": {
+        "Tract": 13067031001,
+        "Pct_1Car": 0.4620892663,
+        "Pct_2Car": 0.385659782,
+        "PopulationDensity": 4.0574795767,
+        "EmploymentDensity": 2.980189542,
+        "JobsNearby": 116423.6666666667,
+        "EmploymentEntropy": 0.6780490603,
+        "Walkability": 11.1666666667
+    },
+    "Mableton": {
+        "Tract": 13067031306,
+        "Pct_1Car": 0.2878169105,
+        "Pct_2Car": 0.645630939,
+        "PopulationDensity": 3.2011781585,
+        "EmploymentDensity": 0.8180112335,
+        "JobsNearby": 85898.0,
+        "EmploymentEntropy": 0.852492978,
+        "Walkability": 10.9166666685
+    },
+    "Tiger": {
+        "Tract": 13241970201,
+        "Pct_1Car": 0.3660836627,
+        "Pct_2Car": 0.5741363693,
+        "PopulationDensity": 0.2417372973,
+        "EmploymentDensity": 0.1154192273,
+        "JobsNearby": 1073.0,
+        "EmploymentEntropy": 0.798817092,
+        "Walkability": 6.9444444443
+    },
+    "Ga": {
+        "Tract": 13185010604,
+        "Pct_1Car": 0.3280019153,
+        "Pct_2Car": 0.6533761107,
+        "PopulationDensity": 0.9317687227,
+        "EmploymentDensity": 0.1831326217,
+        "JobsNearby": 10483.6666666667,
+        "EmploymentEntropy": 0.6287970507,
+        "Walkability": 5.7222222223
+    },
+    "Lowndes": {
+        "Tract": 13185010900,
+        "Pct_1Car": 0.586510264,
+        "Pct_2Car": 0.2971041055,
+        "PopulationDensity": 3.059622064,
+        "EmploymentDensity": 1.974993276,
+        "JobsNearby": 16830.0,
+        "EmploymentEntropy": 0.778334861,
+        "Walkability": 9.25
+    },
+    "Remerton": {
+        "Tract": 13185010900,
+        "Pct_1Car": 0.586510264,
+        "Pct_2Car": 0.2971041055,
+        "PopulationDensity": 3.059622064,
+        "EmploymentDensity": 1.974993276,
+        "JobsNearby": 16830.0,
+        "EmploymentEntropy": 0.778334861,
+        "Walkability": 9.25
+    },
+    "Whigham": {
+        "Tract": 13087970100,
+        "Pct_1Car": 0.2653840863,
+        "Pct_2Car": 0.7060065877,
+        "PopulationDensity": 0.039257864,
+        "EmploymentDensity": 0.0041055903,
+        "JobsNearby": 2734.0,
+        "EmploymentEntropy": 0.327371349,
+        "Walkability": 2.8888888887
+    },
+    "Wrens": {
+        "Tract": 13163960100,
+        "Pct_1Car": 0.3549322342,
+        "Pct_2Car": 0.5352557908,
+        "PopulationDensity": 0.3490502986,
+        "EmploymentDensity": 0.2384970268,
+        "JobsNearby": 3995.0,
+        "EmploymentEntropy": 0.639564217,
+        "Walkability": 6.0999999994
+    },
+    "Yatesville": {
+        "Tract": 13293010100,
+        "Pct_1Car": 0.2126095765,
+        "Pct_2Car": 0.7614567305,
+        "PopulationDensity": 0.0557351235,
+        "EmploymentDensity": 0.0059216385,
+        "JobsNearby": 2598.5,
+        "EmploymentEntropy": 0.5958097615,
+        "Walkability": 3.5833333335
+    },
+    "Cleveland": {
+        "Tract": 13139000203,
+        "Pct_1Car": 0.1418049265,
+        "Pct_2Car": 0.798928511,
+        "PopulationDensity": 0.2767317385,
+        "EmploymentDensity": 0.0257848265,
+        "JobsNearby": 11192.5,
+        "EmploymentEntropy": 0.8466376815,
+        "Walkability": 5.75
+    },
+    "Helen": {
+        "Tract": 13311950203,
+        "Pct_1Car": 0.2691535535,
+        "Pct_2Car": 0.717964767,
+        "PopulationDensity": 0.250326913,
+        "EmploymentDensity": 0.0858535305,
+        "JobsNearby": 4106.5,
+        "EmploymentEntropy": 0.831833524,
+        "Walkability": 6.833333333
+    },
+    "Sautee Nacoochee": {
+        "Tract": 13311950203,
+        "Pct_1Car": 0.2691535535,
+        "Pct_2Car": 0.717964767,
+        "PopulationDensity": 0.250326913,
+        "EmploymentDensity": 0.0858535305,
+        "JobsNearby": 4106.5,
+        "EmploymentEntropy": 0.831833524,
+        "Walkability": 6.833333333
+    }
+}
