@@ -189,11 +189,11 @@ types = [
     "townhomes",
 ]
 
-city_data = json.load(open("cities.json", "r"))
+city_data = json.load(open("platform/streamlit/cities.json", "r"))
 
 @st.cache_data
 def load_model():
-    return load("model.joblib")
+    return load("platform/streamlit/model.joblib")
 
 def calculate_price(
     sold_date,
